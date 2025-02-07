@@ -1,7 +1,7 @@
 import { Instagram, Mail } from "lucide-react";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import { FlipWords } from "./ui/flip-words";
-const words = ["SPOTLIGHT", "ATTENTION", "IMPACT", "ELEVATION"];
+const words = ["POSTIONING","STRATEGY", "SPOTLIGHT", "IMPACT",];
 export function TextBack() {
   return (
     <div
@@ -84,8 +84,8 @@ export function TextFront() {
         <div
           style={{
             fontFamily: "'Antonio', sans-serif",
-            fontSize: 70,
-            fontWeight: "700",
+            fontSize: 40,
+            // fontWeight: "700",
             color: "#ffffff",
             opacity: 1,
             letterSpacing: -2,
@@ -93,20 +93,23 @@ export function TextFront() {
             top: "50%",
             left: "50%",
             transform: "translate(-50%, calc(-50% + 250px))",
-            textTransform: "uppercase",
+            // textTransform: "uppercase",
             maxWidth: "100%",
             overflow: "hidden",
             background: "#ff000010",
             textAlign: "center",
-            paddingLeft: "20px",
+            paddingLeft: "30px",
+            paddingRight: "30px",
+            paddingTop: "20px",
           }}
         >
           {/* <p className="text-white text-2xl text-center">Brand Needs</p> */}
-          Brand Needs <FlipWords
-            words={words}
-            className="text-yellow-500"
-          />{" "}
+          Your Brand Needs Right 
           <br />
+          <FlipWords
+            words={words}
+            className="text-yellow-500 text-[70px] font-bold"
+          />
         </div>
       </div>
     </div>
@@ -263,12 +266,12 @@ export function Underlay() {
             color: "#ffffff",
           }}
         >
-          <b>Wonders of Antiquity</b>
+          <b>Driving Excellence</b>
           <br />
-          Pythagorean Mathematics
+          Inspiring Growth
         </p>
         <div style={{ width: 10 }} />
-        <p
+        {/* <button
           className="full"
           style={{
             fontFamily: "'Antonio', sans-serif",
@@ -283,7 +286,7 @@ export function Underlay() {
           }}
         >
           THE SUMMIT OF THE MANY
-        </p>
+        </button> */}
         <div style={{ width: 10 }} />
         <p
           className="full"

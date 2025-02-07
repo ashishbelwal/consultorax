@@ -13,7 +13,7 @@ export function AppleCardsCarouselServices() {
     <div className="w-full h-full py-20">
       <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-medium text-neutral-800 my-4 dark:text-neutral-200 relative ">
         Brand needs <AuroraText>Personal Touch</AuroraText>
-      </h2>
+      </h2> 
 
       <p className="max-w-7xl pl-4 mx-auto  text-neutral-500 dark:text-neutral-300 ">
         At ConsultoraX, we help you discover your startup’s hidden potential and

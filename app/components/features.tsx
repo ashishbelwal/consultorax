@@ -42,9 +42,9 @@ export function Features() {
     },
   ];
   return (
-    <div className="relative z-20 py-10 lg:py-40 max-w-7xl mx-auto">
-      <div>
-        <h2 className="text-3xl lg:text-5xl lg:leading-tight tracking-tight font-medium text-neutral-800 dark:text-neutral-200">
+    <div className="">
+      <div className="w-full h-full py-20">
+        <h2 className="max-w-7xl ml-[-4px] mx-auto text-3xl md:text-5xl font-medium text-neutral-800 my-4 dark:text-neutral-200 relative">
           Designed for <AuroraText>Maximum Impact</AuroraText>
         </h2>
 

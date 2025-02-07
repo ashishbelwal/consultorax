@@ -16,6 +16,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -69,6 +73,11 @@ const config: Config = {
         "color-5": "hsl(var(--color-5))",
       },
       keyframes: {
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
         "aurora-border": {
           "0%, 100%": {
             borderRadius: "37% 29% 27% 27% / 28% 25% 41% 37%",

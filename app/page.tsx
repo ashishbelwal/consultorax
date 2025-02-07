@@ -2,12 +2,12 @@
 
 import { Suspense } from "react";
 import BrandSpotlight from "./components/brandSpotlight";
-
-import { Overlay, TextBack, TextFront } from "./components/spotlightOthers";
+import { Overlay, TextFront } from "./components/spotlightOthers";
 import { Underlay } from "./components/spotlightOthers";
-import { Services } from "./components/services";
-import { AppleCardsCarouselServices } from "./components/AppleCardsCarouselServices";
-import { Features } from "./components/features";
+import { FeaturesBento } from "./components/featuresBento";
+import { Testimonials } from "./components/testimonials";
+import { QuickNavigation } from "./components/quickNavigation";
+import WinningStratagies from "./components/winningStratagies";
 
 export default function Home() {
   return (
@@ -22,12 +22,27 @@ export default function Home() {
           </Suspense>
           <TextFront />
         </div>
-        <AppleCardsCarouselServices />
-        <div className="preview flex min-h-[350px] max-w-[1400px] w-full justify-center p-2 sm:p-10 items-center mx-auto">
-          <Features />
+        <div className="preview flex-column min-h-[350px] max-w-[1400px] w-full justify-center p-2 sm:p-10 items-center mx-auto">
+          <WinningStratagies />
         </div>
+        
+        {/* <AppleCardsCarouselServices /> */}
+        <div className="preview flex min-h-[350px] max-w-[1400px] w-full justify-center p-2 sm:p-10 items-center mx-auto">
+          {/* <Features /> */}
+          <FeaturesBento />
+        </div>
+        <div className="preview flex min-h-[350px] max-w-[1400px] w-full justify-center p-2 sm:p-10 items-center mx-auto">
+          {/* <Features /> */}
+          <Testimonials />
+        </div>
+        
       </main>
+      <div className="fixed bottom-[0px] w-full" style={{zIndex: 100}}>
+        <QuickNavigation />
+        </div>
+      
       <Overlay />
+      
     </>
   );
 }
