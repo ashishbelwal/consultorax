@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: ["images.unsplash.com", "assets.aceternity.com", "ui.aceternity.com"],
+  },
   webpack: (config, options) => {
     config.module.rules.push({
       test: /\.glsl/,
