@@ -30,7 +30,7 @@ const WinningStratagies = () => {
           90% of startups fail—not because of a bad product, but due to poor
           positioning, lack of market research, and ineffective marketing.
         </p>
-        <div className="flex justify-between align-between">
+        <div className="flex justify-between ">
         <ThreeCardMarketing
           title={"Competitive Analysis & Business Audit"}
           description={

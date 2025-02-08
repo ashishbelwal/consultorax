@@ -22,7 +22,7 @@ export default function Home() {
           </Suspense>
           <TextFront />
         </div>
-        <div className="preview flex-column min-h-[350px] max-w-[1400px] w-full justify-center p-2 sm:p-10 items-center mx-auto">
+        <div className="preview flex-column min-h-[350px] max-w-7xl w-full justify-center p-2 sm:p-10 items-center mx-auto">
           <WinningStratagies />
         </div>
         
