@@ -8,11 +8,11 @@ export function Testimonials() {
   return (
     <div className="h-[40rem] rounded-md flex flex-col antialiased  dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <div className="w-full  py-20">
-        <h2 className="max-w-7xl ml-[-4px] text-center mx-auto text-3xl md:text-5xl font-medium text-neutral-800 my-4 dark:text-neutral-200 relative">
+        <h2 className="max-w-7xl ml-[-4px] mx-auto text-3xl md:text-5xl font-medium text-neutral-800 my-4 dark:text-neutral-200 relative">
           Impacting many <AuroraText>Startups</AuroraText>
         </h2>
 
-        <p className="text-sm lg:text-base text-center my-4 text-neutral-500 font-normal dark:text-neutral-300">
+        <p className="text-sm lg:text-base my-4 text-neutral-500 font-normal dark:text-neutral-300">
           Inspiring Success Stories from Growing Startups
         </p>
       </div>

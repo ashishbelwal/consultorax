@@ -17,11 +17,11 @@ export function FeaturesBento() {
   return (
     <div>
       <div className="w-full h-full py-20">
-        <h2 className="max-w-7xl ml-[-4px] text-center mx-auto text-3xl md:text-5xl font-medium text-neutral-800 my-4 dark:text-neutral-200 relative">
+        <h2 className="max-w-7xl ml-[-4px]  mx-auto text-3xl md:text-5xl font-medium text-neutral-800 my-4 dark:text-neutral-200 relative">
           Designed for <AuroraText>Maximum Impact</AuroraText>
         </h2>
 
-        <p className="text-sm lg:text-base my-4 text-center text-neutral-500 font-normal dark:text-neutral-300">
+        <p className="text-sm lg:text-base my-4  text-neutral-500 font-normal dark:text-neutral-300">
           From Image generation to video generation, Everything AI has APIs for
           literally everything. It can even create this website copy for you.
         </p>

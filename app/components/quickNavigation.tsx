@@ -18,7 +18,7 @@ export function QuickNavigation() {
     {
       title: "Book a free consultation",
       icon: (
-        <IconCalendar className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconCalendar className="h-full w-full text-neutral-500 dark:text-neutral-300 " />
       ),
       href: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Event+Title&dates=20250207T100000Z/20250207T110000Z&details=Event+Details&location=Event+Location",
       target: "_blank"

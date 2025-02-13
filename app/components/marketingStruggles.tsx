@@ -1,7 +1,4 @@
-
-import { MorphStrugles } from "./MorphStrugles";
-
-
+import { MorphStrugles } from "./morphStrugles";
 export function MarketingStruggles() {
   return (
     <div className="z-10 flex-column items-center justify-center h-[50vh]">

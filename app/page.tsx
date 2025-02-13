@@ -8,6 +8,8 @@ import { FeaturesBento } from "./components/featuresBento";
 import { Testimonials } from "./components/testimonials";
 import { QuickNavigation } from "./components/quickNavigation";
 import WinningStratagies from "./components/winningStratagies";
+import WhyUs from "./components/whyUs";
+import OurProcess from "./components/ourProcess";
 
 export default function Home() {
   return (
@@ -21,6 +23,12 @@ export default function Home() {
             <BrandSpotlight />
           </Suspense>
           <TextFront />
+        </div>
+        <div className="preview flex-column min-h-[350px] max-w-7xl w-full justify-center p-2 sm:p-10 items-center mx-auto">
+          <WhyUs />
+        </div>
+        <div className="preview flex-column min-h-[350px] max-w-7xl w-full justify-center p-2 sm:p-10 items-center mx-auto">
+          <OurProcess />
         </div>
         <div className="preview flex-column min-h-[350px] max-w-7xl w-full justify-center p-2 sm:p-10 items-center mx-auto">
           <WinningStratagies />
